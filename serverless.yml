@@ -3,8 +3,9 @@ provider:
   name: aws
   runtime: nodejs14.x
   stage: prod
-  region: us-west-2
+  region: ap-south-1
   memorySize: 128
+  profile: tarun_aws
 functions:
   app:
     handler: index.handler
